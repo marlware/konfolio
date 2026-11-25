@@ -88,6 +88,13 @@ export default function GoogleSignInButton() {
             border-[#A5A5A5]
             rounded-[100px]
             bg-white
+            cursor-pointer
+            transition-colors
+            hover:bg-[#F7F7F7]
+            focus-visible:outline-none
+            focus-visible:ring-2
+            focus-visible:ring-[#262626]/40
+            disabled:cursor-not-allowed
             disabled:opacity-60
           "
         >
